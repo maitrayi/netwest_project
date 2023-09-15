@@ -1,0 +1,37 @@
+E1= Alarm uploadStaticsToDB         1
+    totalSteps=7163
+    Calories:153367
+    Floor:240           steps climbing 
+    Distance:5112
+
+E2 = bulkSaveDetailHiHealthData()   2 
+    size = 4,
+    totalTime = 30
+
+E3 = calculateAltitudeWithCache     241
+    totalAltitude=240
+
+E4 = calculateCaloriesWithCache 
+    totalCalories=126989            total calories of that day 
+
+
+
+*******
+
+
+E22 =  getTodayTotalDetailSteps             242
+    = 1514038440000##
+    6993##
+    548365##
+    8661##
+    12266##
+    27164404
+
+E58 = setTodayTotalDetailSteps          241
+    =1514044740000## 
+    0##
+    549659##
+    8661##
+    16256##
+    33444943
+
